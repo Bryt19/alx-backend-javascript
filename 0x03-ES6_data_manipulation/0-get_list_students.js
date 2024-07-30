@@ -1,7 +1,7 @@
-const getListStudentIds = (list) => {
-  if(!Array.isArray(list)) return [];
+const getListStudents = () => [
+  { id: 1, firstName: 'Guillaume', location: 'San Francisco' },
+  { id: 2, firstName: 'James', location: 'Columbia' },
+  { id: 5, firstName: 'Serena', location: 'San Francisco' },
+];
 
-  return list.map(student => student.id);
-}
-
-export default getListStudentIds;
+export default getListStudents;
